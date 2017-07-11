@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Form</title>
+
+  <!-- CSS LINKS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Raleway:700,800,900" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="formContainer">
+
+    <!-- TEXT BEFORE INPUTS -->
+    <div id="textBox">
+      <h1>LET'S WORK TOGETHER</h1>
+      <div class="rectangle"></div>
+      <h2>Interested in ordering a sign?</h2>
+      <h3><a href="http://www.tinkeringmonkey.com/quote/">Get a Quote »</a></h3>
+      <h1>CONTACT US</h1>
+      <div class="rectangle"></div>
+    </div>
+
+    <div class="contactForm">
+      <form action="index.html" method="post">
+
+        <!-- NAME INPUT -->
+        <div class="inputBox">
+          <div class="icon">
+            <img src="images/user-silhouette.svg"/>
+          </div>
+          <input class="formSettings" type="text" name="fullName" required="required" value="" placeholder="FULL NAME">
+        </div>
+
+        <!-- EMAIL INPUT -->
+        <div class="inputBox">
+          <div class="icon">
+            <img src="images/emailIcon.svg"/>
+          </div>
+          <input class="formSettings" type="email" name="fullName" required="required" value="" placeholder="EMAIL">
+        </div>
+
+        <!-- SHORT MESSAGE -->
+        <div class="inputBox shortMessage">
+          <textarea placeholder="SHORT MESSAGE"></textarea>
+        </div>
+
+        <!-- SUBMIT BUTTON -->
+        <div class="inputSubmit">
+          <input class="formSettings submit" type="submit" name="sumbit" value="SUBMIT">
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+
+</body>
+</html>

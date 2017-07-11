@@ -1,0 +1,173 @@
+/*
+FLEXBOX PROPERTIES
+*/
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /*position: fixed;*/
+  overflow: auto;
+}
+
+#textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+body {
+  background-color: #777;
+  height: 100vh;
+  width: 100vw;
+}
+
+#formContainer {
+  background-color: #191919;
+  width: 240px;
+  height: 100vh;
+  padding: 30px 20px;
+  min-height: 500px;
+}
+
+#textBox {
+  width: 100%;
+  color: #AFAFAF;
+  text-align: left;
+}
+
+#textBox h3 {
+  margin-bottom: 25px;
+}
+
+#textBox a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+#textBox a:visited {
+  color: #AFAFAF;
+  text-decoration: none;
+}
+
+form {
+  width: 100%;
+  /*height: 50%;*/
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: .75em;
+  color: #F2F2F2;
+  background: #232323;
+}
+
+.formSettings {
+  width: 80%;
+  padding: 15px;
+  border: 1px solid;
+  border-color: #363636;
+  background: inherit;
+}
+
+
+::placeholder {
+  color: #F2F2F2;
+}
+
+.inputSubmit {
+  display: flex;
+  justify-content: center;
+}
+
+
+.submit {
+  width: 35%;
+  background: #232323;
+  color: #F2F2F2;
+}
+
+ .submit:hover{
+   background-color: white;
+   color: black;
+ }
+
+input:focus {
+  border-color: #BF9D62;
+  outline: none;
+}
+
+.shortMessage {
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  border-color: #363636;
+}
+
+.rectangle {
+  background: #282828;
+  width: 70px;
+  height: 5px;
+  margin: 10px 0 10px 0;
+}
+
+img {
+  width: 35%;
+}
+
+button {
+  text-decoration: none;
+  border: 0;
+  background: #78A300;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #F2F2F2;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid;
+  border-color: #363636;
+  background-color: inherit;
+}
+
+textarea:focus {
+  border-color: #BF9D62;
+  outline: none;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: .8em;
+}
